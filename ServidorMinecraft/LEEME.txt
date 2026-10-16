@@ -46,4 +46,20 @@ FASE 3 (en el juego, siendo op)
    - Portal del End y portal del Nether decorados y activos (se entra por el norte).
   Para rehacerla: /function granjas:rehacer_fase3
 
+FASE 4 (la ultima; hazla DESPUES de las otras 3)
+  Parate en un lugar CENTRAL respecto a las otras fases y escribe:   /function granjas:fase4
+  Construye al ESTE y SUR (98 x 82 bloques) y el bunker 26 bloques abajo:
+   - Estacion central (norte): torre con 4 andenes, uno por linea. Sube por la escalera de mano.
+   - Plaza con la estatua de los 2 munecos ("Los fundadores").
+   - Salon de cofres (este): 864 barriles en 24 secciones con marco y nombre.
+   - Bunker (escalera al sur de la plaza): dormitorio para 2, encantamientos y pociones,
+     almacen, granja interna (cultivos, cana, bambu, bayas, hongos, 4 animales y boveda de hierro)
+     y 8 aldeanos de tradeo.
+  Al terminar, se tienden SOLAS las vias (tarda menos de 1 minuto):
+     LINEA ROJA -> Fase 1   LINEA VERDE -> Fase 2   LINEA AZUL -> Fase 3   LINEA DORADA -> megabase
+  Cada linea sale de su anden, cruza cerros por tunel y valles por puente, y llega a una estacion
+  6 bloques al noroeste de donde construiste esa fase. Si una fase no existe, esa linea se salta.
+  En cada estacion: pon una vagoneta del barril, subete y presiona el boton.
+  Para volver a tender las vias: /function granjas:ferrocarriles
+
   Todos los comandos: /function granjas:lista
