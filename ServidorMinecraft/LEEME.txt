@@ -21,4 +21,17 @@ FASE 1 (en el juego, siendo op)
      Entrada por la escalera del lado norte.
   Los golems empiezan cuando los aldeanos duermen la primera noche.
   Para rehacerla en el mismo lugar: /function granjas:rehacer_fase1
+
+FASE 2 (en el juego, siendo op)
+  Parate en OTRO lugar (lejos de la fase 1) y escribe:   /function granjas:fase2
+  Construye al ESTE y SUR (160 x 50 bloques, borra lo que haya ahi):
+   - Establo: 2 pisos, 10 corrales (vacas, ovejas, cerdos, gallinas, conejos, cabras,
+     champinacas, llamas, armadillos y abejas). Barril con su comida junto a cada portera.
+     Escalera de mano adentro, en el lado oeste. Entrada por el este.
+   - Invernadero: 10 cultivos (trigo, zanahoria, papa, remolacha, bayas dulces, bayas luminosas,
+     cacao, cana, hongos rojos y marrones). Barril con semillas y polvo de hueso en cada parcela.
+   - Pabellon: 10 granjas automaticas de bambu, 5 de sandia y 5 de calabaza.
+     El barril de cada una esta en su lado OESTE.
+  Para rehacerla: /function granjas:rehacer_fase2
+
   Todos los comandos: /function granjas:lista
