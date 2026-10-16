@@ -1,0 +1,24 @@
+SERVIDOR DE MINECRAFT (Java + Bedrock) - Paper 26.2
+=====================================================
+
+ARRANCAR
+  Doble clic en INICIAR_SERVIDOR.bat
+  La primera vez descarga solo: Java 25, Paper 26.2, Geyser, Floodgate, ViaVersion y ViaBackwards.
+  Puertos: Java 25565 (TCP), Bedrock 19132 (UDP). Usa los mismos tuneles de playit.gg.
+
+SI YA TIENES UN MUNDO
+  Copia tu carpeta "world" aqui (o copia solo datapacks\granjas_datapack.zip
+  a tu world\datapacks\ y escribe "reload" en la consola).
+  ANTES: escribe "stop" y haz una copia de la carpeta world.
+
+FASE 1 (en el juego, siendo op)
+  Parate en un lugar y escribe:   /function granjas:fase1
+  Construye al ESTE y SUR (72 x 30 bloques, borra lo que haya ahi):
+   - Torre de hierro: 5 granjas apiladas. Los barriles estan en la planta baja (puerta de hierro al oeste).
+     Escalera de mano al oeste para subir a la azotea.
+   - Edificio de aldeanos: 4 criaderos (4 padres con pan y 22 camas cada uno). Los bebes pasan
+     solos al corral del este. Arriba: sala de comercio con 15 aldeanos.
+     Entrada por la escalera del lado norte.
+  Los golems empiezan cuando los aldeanos duermen la primera noche.
+  Para rehacerla en el mismo lugar: /function granjas:rehacer_fase1
+  Todos los comandos: /function granjas:lista
