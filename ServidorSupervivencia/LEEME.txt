@@ -1,0 +1,20 @@
+SERVIDOR DE SUPERVIVENCIA (Java + Bedrock) - Paper 26.2
+=======================================================
+  Mundo nuevo, modo DIFICIL, supervivencia, sin datapacks ni comandos.
+  Semilla: 2059666523504992
+
+ARRANCAR
+  1. Si el otro servidor (el del megaproyecto) esta abierto, escribe "stop" en su ventana.
+     Los dos usan los mismos puertos y no pueden estar abiertos a la vez.
+  2. Doble clic en INICIAR_SERVIDOR.bat
+     La primera vez descarga solo Java 25, Paper 26.2, Geyser, Floodgate, ViaVersion y ViaBackwards
+     y crea el mundo con la semilla. Espera a que diga "Done".
+  3. Deja abierto playit.gg: la direccion para entrar es la misma de siempre.
+
+SIN COMANDOS
+  Nadie es op, asi que nadie puede usar comandos (ni /give ni /gamemode).
+  Si algun dia necesitas uno, escribelo en la ventana negra del servidor (sin la barra /).
+
+OJO
+  La semilla solo se usa al CREAR el mundo. Si ya existe la carpeta "world",
+  hay que borrarla (o moverla) para que se genere de nuevo con esta semilla.
