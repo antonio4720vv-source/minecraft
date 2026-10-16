@@ -34,4 +34,16 @@ FASE 2 (en el juego, siendo op)
      El barril de cada una esta en su lado OESTE.
   Para rehacerla: /function granjas:rehacer_fase2
 
+FASE 3 (en el juego, siendo op)
+  Parate en OTRO lugar y escribe:   /function granjas:fase3
+  Construye al ESTE y SUR (150 x 78 bloques, borra lo que haya ahi). Un camino de tierra
+  al norte lleva a todo:
+   - Montana natural (rocas, arboles, flores, arroyo) con la casa grande en la cima
+     (2 personas: cama roja y azul). Se sube por la escalera del lado norte.
+   - Casa en el arbol (2 camas): ascensor de agua por la puerta oeste del tronco.
+   - Caballeriza con 5 caballos ensillados y corral.
+   - Torre de elitros (60 bloques, ascensor de burbujas, cohetes arriba, piscina al este).
+   - Portal del End y portal del Nether decorados y activos (se entra por el norte).
+  Para rehacerla: /function granjas:rehacer_fase3
+
   Todos los comandos: /function granjas:lista
