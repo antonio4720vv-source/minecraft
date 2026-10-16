@@ -1,16 +1,30 @@
-SERVIDOR DE MINECRAFT (Java + Bedrock) - Paper 26.2
-=====================================================
+SERVIDOR DE MINECRAFT (Java + Bedrock) - Paper 26.2 - MEGAPROYECTO
+====================================================================
 
-ARRANCAR
+PASO 1 - ARRANCAR EL SERVIDOR
   Doble clic en INICIAR_SERVIDOR.bat
-  La primera vez descarga solo: Java 25, Paper 26.2, Geyser, Floodgate, ViaVersion y ViaBackwards.
+  La primera vez descarga solo: Java 25, Paper 26.2, Geyser, Floodgate, ViaVersion y ViaBackwards,
+  y mete el datapack de granjas en el mundo. Espera a que diga "Done".
   Puertos: Java 25565 (TCP), Bedrock 19132 (UDP). Usa los mismos tuneles de playit.gg.
+  Si ya tienes tu mundo: ANTES escribe "stop" en tu servidor viejo, copia tu carpeta "world"
+  aqui adentro y despues arranca con INICIAR_SERVIDOR.bat.
 
-SI YA TIENES UN MUNDO
-  Copia tu carpeta "world" aqui (o copia solo datapacks\granjas_datapack.zip
-  a tu world\datapacks\ y escribe "reload" en la consola).
-  ANTES: escribe "stop" y haz una copia de la carpeta world.
+PASO 2 - HACERTE OP (en la consola del servidor)
+  op TuNombre          (si juegas desde el celular/Bedrock: op .TuNombre)
 
+PASO 3 - CONSTRUIR TODO CON UN SOLO COMANDO (en el juego)
+  Parate en un terreno grande y despejado (todo se construye a tu alrededor, unos 450 x 300
+  bloques, y BORRA lo que haya ahi) y escribe:
+        /function granjas:todo
+  Tarda unos 4 minutos. No te alejes ni apagues el servidor mientras tanto.
+     Fase 1 (hierro y aldeanos) ...... 120 al oeste y 100 al norte de donde estas
+     Fase 2 (animales y cultivos) .... 130 al este y 110 al norte
+     Fase 3 (casas y portales) ....... 180 al oeste y 100 al sur
+     Fase 4 (estacion central, estatua, salon de cofres y bunker) donde estas parado
+  Al final se tienden solas las vias del tren desde la estacion central a cada fase.
+  Lista de comandos: /function granjas:lista
+
+DETALLE DE CADA FASE (tambien se pueden hacer una por una)
 FASE 1 (en el juego, siendo op)
   Parate en un lugar y escribe:   /function granjas:fase1
   Construye al ESTE y SUR (72 x 30 bloques, borra lo que haya ahi):
